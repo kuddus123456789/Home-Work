@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+.icon-area ul{
+    list-style: none;
+}
+.icon-area ul li{
+    display:inline;
+}
+.icon-area ul li a{
+    font-size: 10px;
+    background-color:magenta;
+    color:white;
+    padding: 30px 40px;
+    display:inline-block;
+    border-radius: 40px;
+}
+.icon-area ul li a: hover{
+    background-color:white;
+    color:black;
+    transition:5s;
+}
